@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+</head>
+<body>
+
+    <h1>FAMU_FSU COLLEGE OF ENGINEERING TEAM 511 :) coolio </h1>
+    <p>trying to see how to get this to work.</p>
+
+    <!-- Navigation Link -->
+    <a href="https://google.com">Visit Google</a>
+
+    <!-- Image Example -->
+    <img src="IMG_1887.jpg" alt="Test Image">
+
+</body>
+</html>
+
