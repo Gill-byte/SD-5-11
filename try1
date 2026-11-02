@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1 {
+            color: #0066cc;
+        }
+    </style>
 </head>
 <body>
-
-    <h1>FAMU_FSU COLLEGE OF ENGINEERING TEAM 511 :) coolio </h1>
-    <p>trying to see how to get this to work.</p>
-
-    <!-- Navigation Link -->
-    <a href="https://google.com">Visit Google</a>
-
-    <!-- Image Example -->
-    <img src="IMG_1887.jpg" alt="Test Image">
-
+    <h1>Hello, World!</h1>
+    <p>Welcome to my new website hosted on GitHub Pages.</p>
 </body>
 </html>
-
