@@ -3,22 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Georgia-Pacific Chain Sled - FAMU-FSU Senior Design</title>
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-            background-color: #f4f4f9;
             color: #333;
+            line-height: 1.6;
         }
-        h1 {
-            color: #0066cc;
+
+        /* Fixed Navigation Bar */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .school-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #222;
+            border-right: 2px solid #ccc;
+            padding-right: 20px;
+        }
+
+        .sponsor-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #d32f2f; /* Georgia-Pacific Red Accent */
+            font-style: italic;
+        }
+
+        /* Navigation Tabs */
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 0.9rem;
+            padding: 8px 16px;
+            border: 1px solid #ccc;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #333;
+            color: #fff;
+            border-color: #333;
+        }
+
+        /* Hero Banner Section */
+        .hero {
+            position: relative;
+            margin-top: 70px;
+            height: 75vh;
+            background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Red Banner Box */
+        .hero-banner-box {
+            background-color: #d32f2f;
+            color: #ffffff;
+            padding: 30px 40px;
+            border-radius: 8px;
+            max-width: 900px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-banner-box h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Content Sections */
+        section {
+            padding: 80px 40px;
+            max-width: 1100px;
+            margin: 0 auto;
+            border-bottom: 1px solid #eee;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my new website hosted on GitHub Pages.</p>
-</body>
-</html>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="header-brand">
+            <div class="school-title">FAMU-FSU College of Engineering</div>
+            <div class="sponsor-title">Georgia-Pacific</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#deliverables">DELIVERABLES</a></li>
+                <li><a href="#team">TEAM</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div id="home" class="hero">
+        <div class="hero-banner-box">
+            <h1>Georgia-Pacific Chain Sled</h1>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>Welcome to the Georgia-Pacific Chain Sled senior design project website. Add project details, engineering objectives, and background context here.</p>
+    </section>
+
+    <!-- Deliverables Section -->
+    <section id="deliverables">
+        <h2>Deliverables</h2>
+        <p>List project reports, CAD models,
